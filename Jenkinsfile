@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './YOUR_SRN-1'
+                    sh './wrong_binary_name'
                 }
             }
         }
